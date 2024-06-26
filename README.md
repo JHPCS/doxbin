@@ -1,1 +1,2 @@
-# doxbin
+# Doxbin ping script setup
+
