@@ -14,12 +14,17 @@ SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 CHECK_INTERVAL_SECONDS = 600
 
-# Replace the following with your actual cookies
 cookies = {
-    'cookie_name1': 'cookie_value1',
-    'cookie_name2': 'cookie_value2',
-    # Add all relevant cookies here
+    'XSRF-TOKEN': '',
+    '__ddg1_': '',
+    '__ddg2_': '',
+    '__ddg3': '',
+    '__ddg5_': '',
+    '__ddgid_': '',
+    '__ddgmark_': '',
+    'doxbin_session': ''
 }
+
 
 def check_for_post():
     headers = {
